@@ -30,5 +30,18 @@ $(document).ready(function(){
         },1500);
     })
 
+    // chat typeing 
+   $(".chat-1").typeWrite({
+       speed:0,
+       repeat:true,
+       interval: 2000,  
+   });
+
+//    $(".chatTow").typeWrite({
+//     speed:1,
+//     repeat:true,
+//     interval: 2000,  
+// });
+
 });
 
