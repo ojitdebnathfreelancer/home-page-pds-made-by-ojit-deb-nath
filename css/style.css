@@ -1484,3 +1484,24 @@ company css ends
 /*=====================
  footer css ends
  ===================*/
+
+ .back-top{
+    height: 50px;
+    width: 50px;
+    /* background-color:#ff1810; */
+    position: fixed;
+    bottom:30px;
+    right: 30px;
+    z-index: 9999;
+    cursor: pointer;
+    display: none;
+    border-top-right-radius: 75%;
+    border-top-left-radius:75%;
+}
+
+.back-top i{
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #02e415;
+}

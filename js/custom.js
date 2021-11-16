@@ -11,8 +11,24 @@ $(document).ready(function(){
         spinner:"cube-grid",
     });
 
-    // testimonial slider
-    // $(".testimonial-slider").slick({
-    //     arrows:false,
-    // });
+    // sroll top 
+    $(window).scroll(function(){
+        var scrolling = $(this).scrollTop();
+
+        if(scrolling > 500){
+            $(".back-top").fadeIn();
+        }
+
+        else{
+            $(".back-top").fadeOut();
+        }
+    });
+
+    $(".back-top").on("click",function(){
+        $("html,body").animate({
+            scrollTop:"0px",
+        },1500);
+    })
+
 });
+
