@@ -990,7 +990,7 @@ banner css ends
 
 #anyjob .anyjob .col1 {
     height: 100%;
-    width: 40%;
+    width: 35%;
     /* background-color: blue; */
     text-align: center;
 }
@@ -1038,7 +1038,7 @@ banner css ends
 
 #anyjob .anyjob .col2 {
     height: 100%;
-    width: 60%;
+    width: 65%;
     /* background-color: #00ff40; */
     display: flex;
     justify-content: space-between;
